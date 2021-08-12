@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/main.js" defer></script>
+    <link rel="stylesheet" href="css/main.css">
+    <title>F1 Top 7</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div>
+                <form class="d-flex justify-content-center align-items-end my-5">
+                    <div class="me-3">
+                        <label for="season" class="form-label">Season</label>
+                        <input type="text" class="form-control" id="season">
+                    </div>
+                    <div class="me-4">
+                        <label for="round" class="form-label">Round</label>
+                        <input type="text" class="form-control" id="round">
+                    </div>
+                    <button type="button" class="btn btn-danger" id="submit-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 mx-auto" id="table-container">
+               
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
