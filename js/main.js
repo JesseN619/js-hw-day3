@@ -1,3 +1,7 @@
+// Need to turn on Allow CORS extension to run app
+
+// TODO: require user input (right now, if input left blank, will get an error)
+
 const getData = async () => {
     let season = document.querySelector('#season').value
     let round = document.querySelector('#round').value
